@@ -13,9 +13,10 @@ Aplicación para crear, asignar y responder assessments: los managers generan ev
 	```bash
 	composer install
 	```
-2) Instalar dependencias frontend:
+2) Instalar dependencias frontend y compilar assets:
 	```bash
 	npm install
+	npm run build
 	```
 3) Copiar variables de entorno y ajustar credenciales:
 	```bash
